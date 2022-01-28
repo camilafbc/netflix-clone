@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
+
+    
+
+    
+   
+    <title>HOLAFLIX - NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <!-- Menu Navegação -->
+        <div class="container">
+            <h2 class="logo">HOLAFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+
+
+                <a href="#" <i class="fas fa-search lupa"></i></a>
+                <a href="#" <i class="fas fa-user user"></i></a>
+            
+
+
+            </nav>
+
+        </div>
+    </header>
+
+        <main>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicadores -->
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+
+                <!-- Slides -->
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="filme-principal">
+                            <div class="container">
+                                <h3 class="titulo">MADRES PARALELAS</h3>
+                                <h2><span class="indicacao">14</span>  Drama ● 2h</h2>
+                                <p class="sinopse">Dos mujeres solteras que se han quedado embarazadas por accidente y que están a punto de dar a luz coinciden en una habitación de hospital: Janis, de mediana edad, no se arrepiente y es feliz; Ana, una adolescente, se siente arrepentida y asustada.</p>
+                                <div class="botoes">
+                                <a href="https://www.youtube.com/watch?v=ytsXj8ObvtE" target="_blank"><button role="button" class="botao">
+                                    <i class="fas fa-play"></i>
+                                    VER AHORA
+                                </button></a>
+                                <a href="https://www.imdb.com/title/tt12618926/" target="_blank"><button role="button" class="botao">
+                                    <i class="fas fa-info-circle"></i>
+                                    MÁS INFORMACIONES
+                                </button></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="filme-principal" id="back2">
+                            <div class="container">
+                                <h3 class="titulo">SKY ROJO</h3>
+                                <h2><span class="indicacao">18</span>  Acción y Aventura, Crimen, Drama ● 26m</h2>
+                                <p class="sinopse">Tras un desgraciado giro del destino, tres mujeres atormentadas por el pasado huyen de un burdel y arriesgan la vida para escapar de un proxeneta y sus secuaces.</p>
+                                <div class="botoes">
+                                <a href="https://www.netflix.com/br/title/81012637" target="_blank"><button role="button" class="botao">
+                                    <i class="fas fa-play"></i>
+                                    VER AHORA
+                                </button></a>
+                                <a href="https://www.imdb.com/title/tt8690776/?ref_=fn_al_tt_1" target="_blank"><button role="button" class="botao">
+                                    <i class="fas fa-info-circle"></i>
+                                    MÁS INFORMACIONES
+                                </button></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="filme-principal" id="back3">
+                            <div class="container">
+                                <h3 class="titulo">JAGUAR</h3>
+                                <h2><span class="indicacao">18</span>  Drama, Guerra y Política ● 42m</h2>
+                                <p class="sinopse">En la década de 1960, un sobreviviente del Holocausto se une a un grupo de espías para vengarse de los nazis que se escondieron entre los españoles después de la Segunda Guerra Mundial.</p>
+                                <div class="botoes">
+                                <a href="https://www.netflix.com/br/title/81122682?source=35" target="_blank"><button role="button" class="botao">
+                                    <i class="fas fa-play"></i>
+                                    VER AHORA
+                                </button></a>
+                                <a href="https://www.imdb.com/title/tt11698590/" target="_blank"><button role="button" class="botao">
+                                    <i class="fas fa-info-circle"></i>
+                                    MÁS INFORMACIONES
+                                </button></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <!-- Botões de Controle -->
+
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button> -->
+
+                </div>
+            </div>
+        </main>
+
+        <!-- carrossel de filmes -->
+
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://www.telecine.com.br/filme/Volver_26702?action=play_filme" target="_blank"><img class="box-filme" src="assets/img/miniA.jpg" alt="filme 1"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=jU87uMpi8dI" target="_blank"><img class="box-filme" src="assets/img/miniB.jpg" alt="filme 2"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80109193?source=35" target="_blank"><img class="box-filme" src="assets/img/miniC.jpg" alt="filme 3"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80233962" target="_blank"><img class="box-filme" src="assets/img/miniD.jpg" alt="filme 4"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=v46bXWX40Ko" target="_blank"><img class="box-filme" src="assets/img/miniE.jpg" alt="filme 5"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/81022683" target="_blank"><img class="box-filme" src="assets/img/miniF.jpg" alt="filme 6"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/title/80100929?source=35" target="_blank"><img class="box-filme" src="assets/img/miniG.jpg" alt="filme 7"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=dvRMb1IkVHs" target="_blank"><img class="box-filme" src="assets/img/miniH.jpg" alt="filme 8"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.rtve.es/play/videos/el-ministerio-del-tiempo/" target="_blank"><img class="box-filme" src="assets/img/miniI.jpg" alt="filme 9"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=tnWGcXVtueo" target="_blank"><img class="box-filme" src="assets/img/miniJ.jpg" alt="filme 1"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carrossel de Mais Vistos -->
+
+        <div class="emalta">
+            <div class="text-em-alta container">
+                <h3 id="mais">MÁS VISTOS</h3>
+            </div>
+
+            <div class="carrosel-filmes">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/80192098" target="_blank"><img class="box-filme" src="assets/img/mini1.jpg" alt="filme 1"></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/81128579" target="_blank"><img class="box-filme" src="assets/img/mini2.jpg" alt="filme 2"></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/80991158" target="_blank"><img class="box-filme" src="assets/img/mini3.jpg" alt="filme 3"></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/81274959" target="_blank"><img class="box-filme" src="assets/img/mini4.jpg" alt="filme 4"></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/80202811" target="_blank"><img class="box-filme" src="assets/img/mini5.jpg" alt="filme 5"></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/81059918" target="_blank"><img class="box-filme" src="assets/img/mini6.jpg" alt="filme 6"></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/81036936" target="_blank"><img class="box-filme" src="assets/img/mini7.jpg" alt="filme 7"></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.netflix.com/br/title/81031939" target="_blank"><img class="box-filme" src="assets/img/mini8.jpg" alt="filme 8"></a>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+        <script src="https://kit.fontawesome.com/7bdd6bfc6e.js" crossorigin="anonymous"></script>
+        <script src="assets/js/owl/jquery.min.js"></script>
+        <script src="assets/js/owl/owl.carousel.min.js"></script>
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
